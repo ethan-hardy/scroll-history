@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle scroll-history",
+        "command": "scroll-history:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "scroll-history",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "scroll-history:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
