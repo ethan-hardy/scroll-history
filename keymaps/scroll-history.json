@@ -1,5 +1,6 @@
 {
   "atom-workspace": {
-    "ctrl-alt-o": "scroll-history:toggle"
+    "ctrl-alt-right": "scroll-history:stepForward",
+    "ctrl-alt-left": "scroll-history:stepBack"
   }
 }
